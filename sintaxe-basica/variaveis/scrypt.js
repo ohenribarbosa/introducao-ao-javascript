@@ -19,9 +19,9 @@ console.log(FIRST_NAME)
 
 const FIRST_NAME */
 
-//const FIRST_NAME
+/* //const FIRST_NAME
 // FIRST_NAME = "Pedro"
 
 const FIRST_NAME = "Luiz"
 
-console.log(FIRST_NAME)
+console.log(FIRST_NAME) */

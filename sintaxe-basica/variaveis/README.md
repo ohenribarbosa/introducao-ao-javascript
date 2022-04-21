@@ -52,3 +52,13 @@ Hoisting - basicamente, é atribuir o valor a uma variável antes de declara-la.
 - Não faz hoisting
 - Não pode reatribuir
 - Não pode redeclarar
+
+## Var, let e const
+
+|            | var             | const | let   |
+| ---------- | --------------- | ----- | ----- |
+| escopo     | global ou local | bloco | bloco |
+| redeclarar | sim             | não   | não   |
+| reatribuir | sim             | não   | sim   |
+| hoisting   | sim             | não   | não   |
+
