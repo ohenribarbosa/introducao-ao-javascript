@@ -11,3 +11,17 @@ if(firstName === "João") {
 
 console.log(firstName, lastName) */
 
+// const | 
+/* 
+FIRST_NAME = "Luiz"
+
+console.log(FIRST_NAME)
+
+const FIRST_NAME */
+
+//const FIRST_NAME
+// FIRST_NAME = "Pedro"
+
+const FIRST_NAME = "Luiz"
+
+console.log(FIRST_NAME)
