@@ -2,8 +2,6 @@
 
 Módulos arquivos Javascript que tem a capacidade de exportar e importar informarções de outros arquivos do mesmo tipo.
 
-![módulos.png](Mo%CC%81dulos%20fb9b479a4044452f884f97a66a726392/mdulos.png)
-
 ### Algumas vantagens:
 
 - Organização do código
@@ -98,7 +96,7 @@ Apelido.metodo()
 
 **Importando todos os dados de um arquivo**
 
-```jsx
+```javascript
 import * as INFOS from './arquivo.js'
 
 INFOS.metodo()
@@ -106,16 +104,14 @@ INFOS.metodo()
 console.log(INFOS.variavel)
 ```
 
-## VINCULANDO AO HTML
+VINCULANDO AO HTML
 
-```jsx
+```html
 <script type="module" src="./main.js"></script>
 ```
 
-<aside>
-💡 Para fazer testes localmente (de um arquivo no seu computador), será necessário estar rodando um servidor. Isso pode ser feito utilizando a extensão “Live Server”, do VSCode.
-
-</aside>
+> Para fazer testes localmente (de um arquivo no seu computador), será necessário estar rodando um servidor. Isso pode ser feito utilizando a extensão “Live Server”, do VSCode.
+>
 
 ### Curiosidades:
 
@@ -124,5 +120,3 @@ console.log(INFOS.variavel)
 - Para testes locis, é necessário utilizar um servidor;
 - Ao importar, sempre lembre da extensão (.js, .mjs);
 - Ao imprtar, sempre utilize “./” como ponto de partida.
-
-![modules-cheatsheet.png](Mo%CC%81dulos%20fb9b479a4044452f884f97a66a726392/modules-cheatsheet.png)
